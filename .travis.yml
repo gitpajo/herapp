@@ -8,4 +8,4 @@ php:
 script: phpunit
 
 install: 
-  - composer require monolog/monolog
+  - composer install
