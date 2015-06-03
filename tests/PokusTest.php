@@ -1,6 +1,6 @@
 <?php
 
-require_once '../Pokus.php';
+require_once 'Pokus.php';
 
 /**
  * Test class for Pokus.
