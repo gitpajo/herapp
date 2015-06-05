@@ -9,3 +9,11 @@ script: phpunit
 
 install: 
   - composer install
+
+notifications:  
+  webhooks:
+    urls:
+      - https://webhooks.gitter.im/e/7cc5223b3eec9813963f
+    on_success: always
+    on_failure: always
+    on_start: change
