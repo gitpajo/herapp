@@ -13,12 +13,18 @@
  */
 class Pokus {
 
+  private $log;
   // property declaration
   public $var = 'dlouhytestovacitext';
+  
+  function __construct(Monolog\Logger $log) {
+    $this->log = $log;
+  }
 
   // method declaration
   public function displayVar() {
     return $this->var;
+    $this->log->addInfo('foo');
   }
 
 }
