@@ -4,6 +4,7 @@ require __DIR__."/vendor/autoload.php";
 
 $log = new Monolog\Logger('Log');
 $log->pushHandler(new Monolog\Handler\StreamHandler('herapp.log', Monolog\Logger::INFO));
+$log->pushHandler(new StreamHandler('php://stderr', Logger::INFO));
 $log->addInfo('Start App');
 
 $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -13,5 +14,6 @@ if (preg_match('/messages\/\d+/', $path)) {
 } elseif (preg_match('/messages(\/)*$/', $path)) {
   echo 'messages';
 } else {
+  $log->addInfo('Not exists '.$path);
   echo 'not found';
 }
