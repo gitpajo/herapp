@@ -1,4 +1,7 @@
 {
+  "name": "gitpajo/herapp",
+  "description": "Only for testing",
+  "license": "MIT",
     "require": {
         "monolog/monolog": "^1.13",
         "mlaphp/mlaphp": "dev-master"
