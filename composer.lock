@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaphp/mlaphp.git",
-                "reference": "142d75d35f60d9b6fdfb1e27a5ae75bc2b2b413c"
+                "reference": "2c594de4f47fef8efd86384f9efe2b0681d037db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaphp/mlaphp/zipball/142d75d35f60d9b6fdfb1e27a5ae75bc2b2b413c",
-                "reference": "142d75d35f60d9b6fdfb1e27a5ae75bc2b2b413c",
+                "url": "https://api.github.com/repos/mlaphp/mlaphp/zipball/2c594de4f47fef8efd86384f9efe2b0681d037db",
+                "reference": "2c594de4f47fef8efd86384f9efe2b0681d037db",
                 "shasum": ""
             },
             "require": {
@@ -37,7 +37,6 @@
             "authors": [
                 {
                     "name": "Paul M. Jones",
-                    "email": "pmjones88@gmail.com",
                     "homepage": "http://paul-m-jones.com"
                 }
             ],
@@ -54,20 +53,20 @@
                 "response",
                 "router"
             ],
-            "time": "2014-03-25 14:39:12"
+            "time": "2016-02-19 17:04:06"
         },
         {
             "name": "monolog/monolog",
-            "version": "1.17.2",
+            "version": "1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "bee7f0dc9c3e0b69a6039697533dca1e845c8c24"
+                "reference": "a5f2734e8c16f3aa21b3da09715d10e15b4d2d45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/bee7f0dc9c3e0b69a6039697533dca1e845c8c24",
-                "reference": "bee7f0dc9c3e0b69a6039697533dca1e845c8c24",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/a5f2734e8c16f3aa21b3da09715d10e15b4d2d45",
+                "reference": "a5f2734e8c16f3aa21b3da09715d10e15b4d2d45",
                 "shasum": ""
             },
             "require": {
@@ -96,6 +95,7 @@
                 "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
                 "ext-mongo": "Allow sending log messages to a MongoDB server",
                 "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
                 "php-console/php-console": "Allow sending log messages to Google Chrome",
                 "raven/raven": "Allow sending log messages to a Sentry server",
                 "rollbar/rollbar": "Allow sending log messages to Rollbar",
@@ -105,7 +105,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.16.x-dev"
+                    "dev-master": "2.0.x-dev"
                 }
             },
             "autoload": {
@@ -131,7 +131,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2015-10-14 12:51:02"
+            "time": "2016-03-13 16:08:35"
         },
         {
             "name": "psr/log",
