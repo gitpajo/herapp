@@ -4,6 +4,7 @@
   "license": "MIT",
     "require": {
         "monolog/monolog": "^1.13",
-        "mlaphp/mlaphp": "dev-master"
+        "mlaphp/mlaphp": "dev-master",
+        "phpunit/phpunit": "5.7.*"
     }
 }
